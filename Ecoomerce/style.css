@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 5vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-blend-mode: multiply;
+    background-size: 100%;
+    background-image: url(/assents/Principalll.png);
+ 
+}
+
+#logofirst{
+    width: 100%;
+    height: 12vh;
+    position: relative;
+    bottom: 3vh;
+    margin-left: 40%;
+    
+    
+    
+    
+}
+
+#inicio{
+    margin-left: 6vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #410000;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+
+.entrada{
+    font-family: 'Montserrat', sans-serif;
+    color: #410000;
+    font-weight: 700;
+    margin-left: 3%;
+    font-size: 16px;
+    cursor: pointer;
+    
+    
+}
+
+#contato{
+    margin-right: 55vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #410000;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 3vw;
+    cursor: pointer;
+}
+
+.icons{
+    fill: #B79898;
+    margin-right: 2vw;
+    cursor: pointer;
+    
+
+
+}
+
+ul{
+    display: flex;
+   
+}
+
+li{
+    list-style: none;
+   
+}
+
+header{
+    list-style: none;
+    text-decoration: none;
+}
+
+section{
+    background-color: white;
+    height: 200vh;
+    margin-top: 80vh;
+    padding-left:  2%;
+    padding-right: 2%;
+    
+}
+
+.lifesgood{
+    margin-left: 38%;
+
+}
+
+section>div{
+    font-family: 'Montserrat', sans-serif;
+    
+    color: #410000;
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+
+span{
+    color:#781616 ;
+}
+
+button{
+    width: 55%;
+    height: 5vh;
+    background-color: transparent;
+    border: solid 3px #F8EBDD;
+    color: #F8EBDD;
+    border-radius: 50px ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 2px 2px 25px rgb(187, 180, 172);
+    transition: 0.3s;
+}
+
+nav{
+    width: 100%;
+    padding-left: 70%;
+    margin-top: 30vh    ;
+}
+
+.down_arrow{
+ 
+ margin-top: 2vh;
+ padding-left: 50%;
+
+}
+
+#primeira{
+    
+    height: 90vh;
+    width: 35%;
+}
+
+#primeira>img{
+    height: 85vh;
+    width: 100%;
+    cursor: pointer;
+}
+
+#primeira>img:hover{
+    filter: grayscale(1);
+    transition: 0.5s;
+    filter:brightness(80%);
+}
+
+#centro{
+    
+    height: 90vh;
+    width: 25%;
+    margin-left: 1%;
+    margin-right: 1%;
+   
+}
+
+#ultima{
+    
+    height: 95vh;
+    width: 35%;
+}
+
+#ultima>img{
+    height: 95vh;
+    width: 100%;
+    cursor: pointer;
+}
+
+#ultima>img:hover{
+    filter: grayscale(1);
+    transition: 0.5s;
+    filter:brightness(80%);
+}
+
+#imagens_central{
+    display: flex;
+    width: 100%;
+    margin-top: 10vh;
+}
+
+#centro>img{
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 1vh;
+    cursor: pointer;
+}
+
+#centro>img:hover{
+    filter: grayscale(1);
+    transition: 0.5s;
+    filter:brightness(80%);
+}
+
+footer{
+    background-color: #2C0A0A;
+    width: 100%;
+    height: 40vh;
+    color: white;
+    font-family: 'Montserrat', sans-serif ;
+    display: flex;
+}
+
+#centralfooter>img{
+    width: 20%;
+    height: 13vh;
+    margin-top: 15vh;
+    margin-left: 35%;
+
+
+}
+
+#centralfooter{
+    width: 33%;
+}
+
+.icones{
+    fill: white;
+    width: 5%;
+    margin-right: 5%;
+}
+
+#primeirafooter{
+    width: 33%;
+    background-color: #2C0A0A;
+}
+
+#ultamafooter{
+    width: 34%;
+    background-color: #2C0A0A;
+}

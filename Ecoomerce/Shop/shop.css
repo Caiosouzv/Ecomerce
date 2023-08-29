@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 5vh;
+}
+
+#logofirst{
+    width: 100%;
+    height: 12vh;
+    position: relative;
+    bottom: 3vh;
+    margin-left: 40%;
+    
+    
+    
+    
+}
+
+
+
+#inicio{
+    margin-left: 6vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #410000;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+
+.entrada{
+    font-family: 'Montserrat', sans-serif;
+    color: #410000;
+    font-weight: 700;
+    margin-left: 3%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#contato{
+    margin-right: 55vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #410000;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 3vw;
+    cursor: pointer;
+}
+
+.icons{
+    fill: #410000;
+    margin-right: 2vw;
+    cursor: pointer;
+    
+
+
+}
+
+ul{
+    display: flex;
+    
+}
+
+li{
+    list-style: none;
+}
+
+aside{
+   
+    width: 20%;
+    height: 85vh;
+    
+    
+    
+}
+
+#compras{
+   
+    width: 80%;
+    height: 100vh;
+}
+
+section{
+    display: flex;
+}
+
+article{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.caixa{
+    height: 45vh;
+    background-color: #2C0A0A;
+    width: 19%;
+    border-radius: 0px 0px 20px 20px ;
+    
+}
+
+#bloco1{
+    display: flex;
+    justify-content: space-around;
+}
+
+#bloco2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+img{
+    width: 100%;
+}
